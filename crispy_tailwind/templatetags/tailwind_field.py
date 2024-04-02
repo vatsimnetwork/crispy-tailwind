@@ -78,8 +78,7 @@ def pairwise(iterable):
 
 class CrispyTailwindFieldNode(template.Node):
     base_input = (
-        "bg-white focus:outline-none border border-gray-300 rounded-lg py-2 px-4 block w-full "
-        "appearance-none leading-normal text-gray-700"
+        "form-control"
     )
 
     default_styles = {
@@ -103,7 +102,7 @@ class CrispyTailwindFieldNode(template.Node):
         "selectmultiple": "",
         "checkboxselectmultiple": "",
         "multi": "",
-        "splitdatetime": "text-gray-700 bg-white focus:outline border border-gray-300 leading-normal px-4 "
+        "splitdatetime": "form-control "
         "appearance-none rounded-lg py-2 focus:outline-none mr-2",
         "splithiddendatetime": "",
         "selectdate": "",
